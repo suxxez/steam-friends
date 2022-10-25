@@ -1,6 +1,6 @@
 import requests
 
-from steam_api_key import STEAM_API_KEY
+from src.steam_api_key import STEAM_API_KEY
 
 
 def convert_id(user_id: int | str):

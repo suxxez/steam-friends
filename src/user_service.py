@@ -1,7 +1,7 @@
 import requests
 
 from src.helpers import convert_id
-from steam_api_key import STEAM_API_KEY
+from src.steam_api_key import STEAM_API_KEY
 
 
 def get_user_information(user_id: int | str):

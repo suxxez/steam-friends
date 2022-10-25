@@ -1,7 +1,8 @@
 import uvicorn
-import user_service
+
 
 from fastapi import FastAPI
+from src import user_service
 
 app = FastAPI()
 

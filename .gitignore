@@ -116,4 +116,4 @@ cython_debug/
 .idea/
 
 # private keys
-steam_api_key.py
+src/steam_api_key.py
