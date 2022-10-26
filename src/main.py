@@ -23,9 +23,4 @@ def get_openapi_spec():
 
 
 if __name__ == "__main__":
-    with open('../swagger.json', 'w') as file:
-        file.write(json.dumps(get_openapi_spec()))
     uvicorn.run(app, host="0.0.0.0", port=8000)
-
-if sys.argv[1] == "openapi":
-    print(get_openapi_spec())

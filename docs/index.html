@@ -6,12 +6,11 @@
         <title>My New API</title>
     </head>
     <body>
-        <div id="swagger-ui"></div> <!-- Div to hold the UI component -->
+        <div id="swagger-ui"></div>
         <script>
             window.onload = function () {
-                // Begin Swagger UI call region
                 const ui = SwaggerUIBundle({
-                    url: "swagger.json", //Location of Open API spec in the repo
+                    url: "openapi.json",
                     dom_id: '#swagger-ui',
                     deepLinking: true,
                     presets: [
